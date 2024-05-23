@@ -27,7 +27,7 @@ To run the code, execute the `crewai_test.py` script. This will kickoff the exec
 
 ```bash
 python crewai_test.py
-
+```
 ## Setup
 
 Before running the code, you need to set up a virtual environment and install the necessary packages.
@@ -38,11 +38,18 @@ You can create a virtual environment using `venv` (built into Python 3) or `cond
 
 ```bash
 python3 -m venv env
-
+```
 ### Installing Packages
 After activating the virtual environment, you can install the necessary packages with pip:
 
 ```bash
 pip install crewai langchain_community.llms.ollama
+```
 
 This will install the crewai and ollama packages, which are needed to run the code.
+
+### I tried this with Linkedin and here's the output -
+<img width="1195" alt="image" src="https://github.com/Aakansha09/CrewAIAgents/assets/32329514/92d7b6a3-fdcc-493d-8f6d-bea46ea3c179">
+
+<img width="1206" alt="image" src="https://github.com/Aakansha09/CrewAIAgents/assets/32329514/0630824d-d75d-4c18-b6b3-4f1881acc8a5">
+
