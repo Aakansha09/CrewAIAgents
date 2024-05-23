@@ -13,7 +13,7 @@ Researcher = Agent(
 )
 
 Writer = Agent(
-    role = 'Witer',
+    role = 'Writer',
     goal = 'Write compiling and engaging pointers blogs about features of [Company Name]',
     backstory = 'You are AI writer for [Company Name] who specialize in writing',
     verbose =  True,
