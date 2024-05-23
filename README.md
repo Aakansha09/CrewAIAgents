@@ -48,8 +48,11 @@ pip install crewai langchain_community.llms.ollama
 
 This will install the crewai and ollama packages, which are needed to run the code.
 
-### I tried this with Linkedin and here's the output -
+## Output for Company - Linkedin -
+
+### Agent - Writer
 <img width="1195" alt="image" src="https://github.com/Aakansha09/CrewAIAgents/assets/32329514/92d7b6a3-fdcc-493d-8f6d-bea46ea3c179">
 
+### Agent - Tester
 <img width="1206" alt="image" src="https://github.com/Aakansha09/CrewAIAgents/assets/32329514/0630824d-d75d-4c18-b6b3-4f1881acc8a5">
 
