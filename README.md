@@ -21,9 +21,6 @@ Tasks are defined as instances of the `Task` class from the CrewAI framework. Ea
 
 The agents and tasks are passed to an instance of the `Crew` class from the CrewAI framework. The `Crew` instance orchestrates the execution of the tasks by the agents.
 
-## Running the Code
-
-To run the code, execute the `crewai_test.py` script. This will kickoff the execution of the tasks by the agents.
 
 ```bash
 python crewai_test.py
@@ -43,8 +40,12 @@ python3 -m venv env
 After activating the virtual environment, you can install the necessary packages with pip:
 
 ```bash
-pip install crewai langchain_community.llms.ollama
+Download Ollama 
+ollama run openhermes
 ```
+## Running the Code
+
+To run the code, execute the `crewai_test.py` script. This will kickoff the execution of the tasks by the agents.
 
 This will install the crewai and ollama packages, which are needed to run the code.
 
