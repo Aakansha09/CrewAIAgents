@@ -31,7 +31,7 @@ Tester = Agent(
 )
 
 Automation_Tester = Agent(
-    role = 'Tester',
+    role = 'Automation_Tester',
     goal = 'Generate automation script in JS with mocha for all Public APIs of [Company Name]',
     backstory = 'You are an Automation tester for [Company Name] who specialize in writing JS scipts to automate feature testing',
     verbose =  True,
@@ -40,20 +40,26 @@ Automation_Tester = Agent(
 )
 
 task1 = Task(
-    description =  'Investigate the all information about [Company Name] from URL [Company URL] and create a Test plan with Test cases around the Admin features.', 
-    agent = Tester,
-    expected_output = 'A detailed Test Plan on [Company Name]'
+    description =  'Investigate the all information about Linkedin ', 
+    agent = Researcher,
+    expected_output = 'A detailed Research on Linkedin'
 )
 task2 = Task(
-    description =  'Write a compelling blog post about [Company Name]', 
+    description =  'Write a compelling blog post about Linkedin', 
     agent = Writer,
-    expected_output = 'A compelling blog post about [Company Name]'
+    expected_output = 'A compelling blog post about Linkedin job search'
 )
 
 task3 = Task(
-    description =  'Investigate the all information about [Company Name] and generate automation script in JS with mocha for all Public APIs of [Company Name]', 
+    description =  'Investigate the all information about Linkedin from URL https://www.linkedin.com/ and create a Test plan for the Setting features of Linkedin', 
     agent = Tester,
-    expected_output = 'Test script in JS with mocha for all Public APIs of [Company Name]'
+    expected_output = 'A detailed Test Plan on Linkedin'
+)
+
+task4 = Task(
+    description =  'Investigate the all information about Linkedin and generate automation script in JS with mocha for all Public APIs of Linkedin', 
+    agent = Automation_Tester,
+    expected_output = 'Test script in JS with mocha for all Public APIs of Linkedin'
 )
 
 crew = Crew(
