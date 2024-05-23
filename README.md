@@ -25,7 +25,7 @@ The agents and tasks are passed to an instance of the `Crew` class from the Crew
 
 To run the code, execute the `crewai_test.py` script. This will kickoff the execution of the tasks by the agents.
 
-``bash
+```bash
 python crewai_test.py
 
 ## Setup
@@ -36,12 +36,13 @@ Before running the code, you need to set up a virtual environment and install th
 
 You can create a virtual environment using `venv` (built into Python 3) or `conda` (part of the Anaconda distribution). Here's how to do it with `venv`:
 
-``bash
+```bash
 python3 -m venv env
 
 ### Installing Packages
 After activating the virtual environment, you can install the necessary packages with pip:
-``bash
+
+```bash
 pip install crewai langchain_community.llms.ollama
 
 This will install the crewai and ollama packages, which are needed to run the code.
