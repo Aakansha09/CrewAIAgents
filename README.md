@@ -1,4 +1,4 @@
-# CrewAI Project
+# CrewAI Agents Project
 
 This project uses the CrewAI framework to orchestrate role-playing, autonomous AI agents. The goal is to have these agents perform various tasks related to researching, writing, and testing for a company.
 
